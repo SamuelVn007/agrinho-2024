@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Instrumentos Musicais</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 1em;
+        }
+
+        img {
+            width: 100%; /* Use 100% para cobrir a largura do contêiner pai */
+            height: auto;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .product {
+            text-align: center;
+            margin: 20px;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Loja de Instrumentos Musicais</h1>
+    </header>
+    
+    <section>
+        <div class="product">
+            <img class="flauta" src="flauta transversal.png" alt="Flauta transversal">
+            <h2>Flauta transversal</h2>
+            <p>Marca: Eagle</p>
+            <p>Preço: R$899,99</p>
+            <button>Adicionar ao Carrinho</button>
+            <button class="favoritar">Adicionar aos Favoritos</button>
+        </div>
+         
+        <div class="product">
+            <img class="clarinete" src="clarinete.png" alt="Clarinete">
+            <h2>Clarinete</h2>
+            <p>Marca: Eagle</p>
+            <p>Preço: R$2499,99</p>
+            <button>Adicionar ao Carrinho</button>
+            <button class="favoritar">Adicionar aos Favoritos</button>
+        </div>
+        
+        <div class="product">
+            <img class="sax" src="sax alto.png" alt="Sax alto">
+            <h2>Sax alto</h2>
+            <p>Marca: Leblanc</p>
+            <p>Preço: R$10000,00</p>
+            <button>Adicionar ao Carrinho</button>
+            <button class="favoritar">Adicionar aos Favoritos</button>
+        </div>
+       
+        <div class="product">
+            <img class="violino" src="violino.png" alt="violino">
+            <h2>violino</h2>
+            <p>Marca: Yamaha</p>
+            <p>Preço: R$5000,00</p>
+            <button>Adicionar ao Carrinho</button>
+            <button class="favoritar">Adicionar aos Favoritos</button>
+        </div>
+
+
+        <nav>
+            <ul>
+                <li><a href="Home/contatos">Contatos</a></li>
+                <li><a href="Favorito/Html">Anotações</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Loja de Instrumentos Musicais. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
